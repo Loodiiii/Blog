@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4a484d;
+    height: 100vh;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.container-main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper-cont {
+    font-family: "Fira Sans", sans-serif;
+}
+.span {
+    font-size: 200px;
+}
+.kod {
+    font-size: 170px;
+}
+#error404 {
+    color: #60cfeb;
+    margin-right: 5px;
+}
+#message {
+    color: #f23f69;
+    margin-left: 50px;
+}
+#page-not {
+    color: #8ec953;
+}
